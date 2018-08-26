@@ -1,0 +1,17 @@
+{
+  "name": "platzi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "author": "marcos.vissio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  }
+}
