@@ -1,10 +1,10 @@
 machine:
   services:
-    - docker
+    - npm
 dependencies:
   override:
-    - docker build -t platzi . 
+    - npm install
 
 test:
   override:
-    - docker run platzi npm test
+    - npm test
